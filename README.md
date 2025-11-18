@@ -24,6 +24,11 @@ Join our [Discord community](https://discord.gg/RYk7CdvDR7) to connect with othe
 
 Read more on our [documentation website](https://microsoft.github.io/agent-lightning/).
 
+## 🔥 What's New (Week of Nov 6, 2025)
+
+- Lightning Store's RESTful API now supports CORS control, configurable from the CLI, so browser-based dashboards can safely query training data.
+- Query endpoints for rollouts, attempts, resources, and spans now provide filtering, sorting, and pagination to make remote monitoring and debugging easier.
+
 <p align="center">
   <img src="docs/assets/readme-diff.svg" alt="Agent-Lightning Core Quickstart" style="width:100%"/>
 </p>

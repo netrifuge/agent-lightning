@@ -11,6 +11,11 @@ Agent Lightning is the absolute trainer to light up AI agents.
 - **Selectively** optimize one or more agents in a multi-agent system. 🎯
 - Embraces **Algorithms** like Reinforcement Learning, Automatic Prompt Optimization, Supervised Fine-tuning and more. 🤗
 
+## Latest Updates (Week of Nov 6, 2025)
+
+- RESTful store endpoints now expose filtering, sorting, and pagination so you can page through rollouts, attempts, resources, and spans from remote dashboards.
+- The Lightning Store server adds configurable CORS support (CLI `--cors-origin`) to enable browser clients.
+
 ## How to Read this Documentation
 
 This documentation is organized into the following parts:
@@ -21,6 +26,7 @@ This documentation is organized into the following parts:
 - Algorithm Zoo (e.g., [APO](algorithm-zoo/apo.md)) - References for built-in algorithms.
 - Deep Dive (e.g., [Bird's Eye View](deep-dive/birds-eye-view.md)) - For a deeper understanding of what Agent-lightning is doing under the hood.
 - API References (e.g., [Agent](reference/agent.md)) - References for the Agent-lightning Python API.
+- RESTful API Reference ([Store endpoints](reference/restful.md)) - OpenAPI docs for the Lightning Store HTTP interface.
 
 ## Resources
 
